@@ -19,7 +19,7 @@ public class NotificacaoService {
         if (estrategia == null) {
             throw new IllegalArgumentException("Tipo de envio não suportado: " + tipo);
         }
-        estrategia.enviar(destinatario, message);
+        estrategia.enviar(destinatario, mensagem);
     }
 }
 
